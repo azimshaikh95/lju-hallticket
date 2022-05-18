@@ -29,7 +29,7 @@ today = date.today()
 
 #Variable Names
 datex = "ht_w22"
-lastupdated = "01-01-2022 05:00 PM"
+lastupdated = "18-05-2022 05:00 AM"
 
 #Program Variables
 header = st.container()
