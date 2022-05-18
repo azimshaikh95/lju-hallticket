@@ -18,7 +18,7 @@ def image_file_path_to_base64_string(filepath: str) -> str:
     return base64.b64encode(f.read()).decode()
 
 
-st.set_page_config(layout="centered", page_icon="🎓", page_title="LJ Result App")
+st.set_page_config(layout="centered", page_icon="🎓", page_title="LJ Hallticket App")
 #st.title("🎓 LJ University Hallticket App")
 
 
@@ -144,7 +144,7 @@ if(textInput != "" and status):
         
         
         
-        right.success("🎉 Your Result PDF Generated!")                 
+        right.success("🎉 Your Hallticket Generated!")                 
         right.download_button(
             "🖨️ Download PDF",
             data=pdf,
