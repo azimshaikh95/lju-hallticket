@@ -53,7 +53,7 @@ for i in range(len(df["EnrolmentNo"])):
     # df['EnrolmentNo'][i] = df['EnrolmentNo'][i]
     
 # st.image('images/ljulogo.png', use_column_width=True)
-st.image('images/ljulogo.png', width=500)
+st.image('images/ljulogo.png', width=50%)
 st.markdown("<h1 style='text-align: center'><b>Exam Hallticket Generator</b></h1>", unsafe_allow_html=True)
 
 
